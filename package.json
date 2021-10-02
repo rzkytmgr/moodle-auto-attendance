@@ -1,0 +1,25 @@
+{
+  "name": "fix-auto-att",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && node ./build/bot",
+    "once": "node ./build/bot",
+    "build": "tsc --project .",
+    "watch": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cron": "^1.7.3",
+    "dotenv": "^10.0.0",
+    "puppeteer": "^10.2.0"
+  },
+  "devDependencies": {
+    "cron": "^1.8.2",
+    "typescript": "^4.4.3"
+  }
+}
